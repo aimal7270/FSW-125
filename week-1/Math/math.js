@@ -1,13 +1,13 @@
-const sum = (a,b) => {
+function sum  (a,b)  {
     return a + b
 }
-const subtract = (c,d) => {
+function subtract (c,d)  {
     return c-d
 }
-const multi = (e,f) => {
+function multi  (e,f)  {
     return e*f
 }
-const divide = (g,h) => {
+function divide (g,h)  {
     return g/h
 }
 export default {

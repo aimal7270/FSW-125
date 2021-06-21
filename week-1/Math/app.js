@@ -1,12 +1,15 @@
 //addition
-const mathOb = require('./math').default;
+import sum from './math.js';
+import subtract from './math.js';
+import multi from './math.js';
+import divide from './math.js';
 
-console.log(mathOb.sum(33,2));
+console.log(sum(33,2));
 //subtraction
 
-console.log(mathOb.subtract(15,2));
+console.log(subtract(15,2));
 //multi
 
-console.log(mathOb.multi(5,2));
+console.log(multi(5,2));
 //divide
-console.log(mathOb.divide(20,2));
+console.log(divide(20,2));
