@@ -41,6 +41,6 @@ todoRouter
         Object.assign(todoList[oneToDo], req.body);
 
         res.send('To Do Updated')
-    })
+    }),
 
-module.exports = todoRouter
+module.exports = todoRouter]
