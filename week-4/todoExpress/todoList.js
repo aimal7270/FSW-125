@@ -3,9 +3,9 @@ const todoRouter = express.Router();
 const {v4: uuidv4} = require('uuid');
 
 let todoList = [
-    {name: 'cricket', description: 'sunday', 
-    {name: 'grocery', description: 'Fancy Fruit', 
-    {name: 'Focused', description: 'School'
+    {name: 'cricket', description: 'sunday'}, 
+    {name: 'grocery', description: 'Fancy Fruit'}, 
+    {name: 'Focused', description: 'School'},
 
 
 todoRouter
